@@ -18,6 +18,7 @@ body {
 .nav li:last-child{
   margin-right: 0;
 }
+
 .box li {
   display: list-item;
   margin: .7em 0 0 0;
@@ -35,4 +36,20 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 1.2em;
     text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.box a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: .1em;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.box a:hover:after {
+	width: 90%;
+	background: #ff6f69;
 }
