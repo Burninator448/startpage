@@ -1,0 +1,36 @@
+body {
+
+}
+
+.nav ul {
+  text-align: center;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  margin: 12em 1.3em 0 0;
+  padding: 25px 30px 25px 30px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  vertical-align: top;
+}
+.nav li:last-child{
+  margin-right: 0;
+}
+.box li {
+  display: list-item;
+  margin: .7em 0 0 0;
+  padding: 0;
+  box-shadow: none;
+  list-style: none;
+}
+.box li:first-child {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2em;
+}
+.box a {
+    color: #ff6f69;
+    font-family: "DejaVu Sans Mono";
+    font-size: 1.2em;
+    text-decoration: none;
+}
