@@ -21,7 +21,7 @@ body {
 
 .box li {
   display: list-item;
-  margin: .7em 0 0 0;
+  margin: .5em 0 0 0;
   padding: 0;
   box-shadow: none;
   list-style: none;
