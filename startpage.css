@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
 
 }
@@ -30,7 +32,7 @@ body {
 }
 .box a {
     color: #ff6f69;
-    font-family: "DejaVu Sans Mono";
+    font-family: "Roboto", sans-serif;
     font-size: 1.2em;
     text-decoration: none;
 }
